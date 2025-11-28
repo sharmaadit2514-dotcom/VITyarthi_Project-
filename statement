@@ -1,0 +1,23 @@
+1.Problem statement
+Design and implement a console-based “Online Shopping Mart” application in Python that allows a user to browse products, manage a shopping cart, and generate a final bill. The system should provide a simple, menu-driven interface where the user can view available products, add or remove items from the cart, review the cart contents, and perform checkout with an itemized receipt. The goal is to simulate core e‑commerce cart functionality for learning Python and basic software design.
+
+2.Scope of the project
+The project covers a single-user, offline shopping system running in a terminal/command prompt. It includes an in-memory product catalog, a shopping cart with add/remove/update operations, and console-based billing. It does not include online payment integration, real user authentication, or a graphical/web interface; these are considered outside the current scope and can be future enhancements.
+
+3.Target users
+
+Students and beginners learning Python who need a small but realistic project.
+
+Instructors who want a simple example to demonstrate menus, functions, and OOP.
+
+Anyone who needs a lightweight shopping-cart simulation without a database or web server.
+
+4.High-level features
+
+Display a list of products (ID, name, price) and allow the user to browse them.
+
+Add items to the shopping cart with specified quantities and remove or reduce items from the cart.
+
+View current cart contents with item-wise subtotal and overall total.
+
+Checkout operation that prints an itemized final bill/receipt and ends the session.
